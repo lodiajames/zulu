@@ -1,4 +1,8 @@
+import Header from "components/Header"
+import Navbar from "components/Navbar"
+import Results from "components/Results"
 import Head from "next/head"
+
 
 
 export default function Home() {
@@ -10,7 +14,15 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <h1 className="bg-red-400">Hello world</h1>
+      <h1 className="bg-red-400">
+            {/* Header */}
+            <Header/>
+
+            {/* Navbar */}
+            <Navbar/>
+            {/* Results */}
+            <Results/>
+      </h1>
      
 
        
