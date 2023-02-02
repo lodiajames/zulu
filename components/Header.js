@@ -12,7 +12,7 @@ export default function Header() {
           <HeaderIcon Icon={PhoneIcon} title="CONTACT"/>
           <HeaderIcon Icon={InformationCircleIcon} title="ABOUT"/>
         </div>
-        <Image src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/IMDB_Logo_2016.svg/1150px-IMDB_Logo_2016.svg.png?20200406194337" width={100} height={100} className='my-3 cursor-pointer active:brightness-110'/>
+        <Image src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/IMDB_Logo_2016.svg/1150px-IMDB_Logo_2016.svg.png?20200406194337" priority width={100} height={100} alt='logo' className='my-3 cursor-pointer active:brightness-110'/>
         
     </div>
   )
