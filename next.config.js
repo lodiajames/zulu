@@ -2,6 +2,7 @@
 const nextConfig = {
   reactStrictMode: true,
   images: {
+    allowFutureImage: true,
     domains: ["upload.wikimedia.org"]
   }
 }
